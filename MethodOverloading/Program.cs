@@ -32,6 +32,8 @@
         static void Main(string[] args)
         {
             Console.WriteLine(Add(3,1, isCurrency: true));
+            Console.WriteLine(Add(0,1, true));
+            Console.WriteLine(Add(1,1, false));
         }
     }
 }
